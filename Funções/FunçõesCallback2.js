@@ -23,5 +23,5 @@ const notasBaixas3 = notas.filter(notasMenoresQue7);
 console.log("3)", notasBaixas3);
 
 // Teste
-const mensagem = () => console.log("4) Olá Mundo!!");
+const mensagem = () => console.log("4 - Olá Mundo!!");
 mensagem();
