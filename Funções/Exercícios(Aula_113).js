@@ -28,3 +28,13 @@ function tresTirangulos(AB, BC, AC) {
 tresTirangulos(12, 14, 34);
 tresTirangulos(12, 12, 34);
 tresTirangulos(34, 34, 34);
+
+// ! ||--------------------------------------------------------------------------------||
+// ! ||                                   Questão 03                                   ||
+// ! ||--------------------------------------------------------------------------------||
+const exponenciacao = (b, e) => {
+ return Math.pow(b, e);
+};
+console.log(`Resultado da exponenciação: ${exponenciacao(2, 3)}.`);
+console.log(`Resultado da exponenciação: ${exponenciacao(4, 10)}.`);
+console.log(`Resultado da exponenciação: ${exponenciacao(10, 3)}.`);
