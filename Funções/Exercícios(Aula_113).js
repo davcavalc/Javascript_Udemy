@@ -38,3 +38,14 @@ const exponenciacao = (b, e) => {
 console.log(`Resultado da exponenciação: ${exponenciacao(2, 3)}.`);
 console.log(`Resultado da exponenciação: ${exponenciacao(4, 10)}.`);
 console.log(`Resultado da exponenciação: ${exponenciacao(10, 3)}.`);
+
+// ! ||--------------------------------------------------------------------------------||
+// ! ||                                   Questão 04                                   ||
+// ! ||--------------------------------------------------------------------------------||
+function Divisao(divisor, dividendo) {
+ console.log(
+  `Resultado: ${Math.floor(dividendo / divisor)}; Resto: ${dividendo % divisor}`
+ );
+}
+
+Divisao(2, 2);
