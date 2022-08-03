@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/davcavalc/Javascript_Udemy#readme",
   "devDependencies": {
+    "prettier": "2.7.1",
     "tailwindcss": "^3.1.6"
   }
 }

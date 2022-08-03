@@ -12,33 +12,33 @@ console.log(produto);
 // ! ||                                    Objeto 2                                   ||
 // ! ||--------------------------------------------------------------------------------||
 const carro = {
- modelo: "A4",
- preco: 89000,
- proprietario: {
-  nome: "Raul",
-  idade: 56,
-  endereco: {
-   logradouro: "Rua ABC",
-   numero: 123,
+  modelo: "A4",
+  preco: 89000,
+  proprietario: {
+    nome: "Raul",
+    idade: 56,
+    endereco: {
+      logradouro: "Rua ABC",
+      numero: 123,
+    },
+    condutores: [
+      {
+        nome: "Junior",
+        idade: 19,
+      },
+      {
+        nome: "Ana",
+        idade: 42,
+      },
+    ],
+    calcularValorDoSeguro: function () {
+      // ...
+    },
   },
-  condutores: [
-   {
-    nome: "Junior",
-    idade: 19,
-   },
-   {
-    nome: "Ana",
-    idade: 42,
-   },
-  ],
-  calcularValorDoSeguro: function () {
-   // ...
-  },
- },
 };
 
 carro.proprietario.endereco.numero = 1000;
-carro['proprietario']['endereco']['logradouro'] = 'Av. Gigante';
+carro["proprietario"]["endereco"]["logradouro"] = "Av. Gigante";
 console.log(carro);
 delete carro.condutores;
 delete carro.proprietario.endereco;

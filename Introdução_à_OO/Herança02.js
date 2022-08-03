@@ -38,5 +38,5 @@ console.log(ferrari);
 console.log(volvo);
 
 volvo.acelerarMais(100);
-console.log('1) volvo:', volvo.status());
-console.log('2) ferrari:', ferrari.status());
+console.log("1) volvo:", volvo.status());
+console.log("2) ferrari:", ferrari.status());

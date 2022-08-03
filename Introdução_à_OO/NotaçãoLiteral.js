@@ -18,12 +18,12 @@ const obj4 = { [nomeAtr]: valorAtr };
 console.log(obj4);
 
 const obj5 = {
- function1: function () {
-  // ... forma tradicional
- },
- funcao2() {
-  // ... forma reduzida
- },
+  function1: function () {
+    // ... forma tradicional
+  },
+  funcao2() {
+    // ... forma reduzida
+  },
 };
 
 console.log(obj5);
